@@ -1,0 +1,58 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css";
+
+.channels-btn{
+    color: white;
+    background-color: red;
+    padding: 10px 30px;
+    border: 1 px solid wheat;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 26px;
+    border: none;
+}
+
+.fa-youtube {
+    color: red;
+    padding-right: 10px;
+}
+
+header{
+    width: 100%;
+    text-align: center;
+    font-family: system-ui;
+}
+
+.channel-input{
+    width: 200px;
+    padding: 10px 5px;
+}
+
+.channel-label{
+    font-size: 20px;
+    font-family: system-ui;
+    padding-right: 10px;
+}
+
+main{
+    border: 1px solid red;
+    padding: 15px;
+    text-align-last: center;
+    background-color: bisque;
+}
+
+.channels-wrapper{
+    margin-top: 50px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+
+
