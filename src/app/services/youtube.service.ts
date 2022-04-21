@@ -10,7 +10,7 @@ export class YoutubeService {
 
 getChannels(channelName: string):Observable<any>{
 
-  const API_KEY = "AIzaSyDh8aeGAt_D_0UT9dCi2QY-hJi1EDbski0";
+  const API_KEY = "${YOUTUBE_API_KEY}";
 
   const url = "https://www.googleapis.com/youtube/v3/search?part=snippet&q=" + channelName + "&type=channel&key=" + API_KEY + "&maxResult=5";
 
